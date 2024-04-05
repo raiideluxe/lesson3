@@ -1,4 +1,4 @@
-"""
+
     def translit_to_eng(s):
     translit_dict = {
         'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'yo',
@@ -17,8 +17,7 @@
             slug.append(char)
 
     return '-'.join(slug)
-
-# Пример работыы
+"""
 while True:
     input_str = input("Введите имя и фамилию человека: ")
     if not input_str:
@@ -33,7 +32,6 @@ class NameSlugGenerator:
         self.output_file = output_file
 
     def translit_to_eng(self, s):
-        # Код функции translit_to_eng остается таким же
 
     def generate_slug(self, input_str):
         slug = self.translit_to_eng(input_str)
@@ -43,7 +41,6 @@ class NameSlugGenerator:
         with open(self.output_file, 'a') as file:
             file.write(f"{name}: {slug}\n")
 
-# Пример использования класса
 output_filename = "name_slugs.txt"
 generator = NameSlugGenerator(output_filename)
 
