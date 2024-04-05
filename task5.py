@@ -8,7 +8,6 @@ class Nikola:
             self.name = 'Николай'
         self.age = age
 
-# Тесты
 person1 = Nikola('Иван', 31)
 person2 = Nikola('Николай', 14)
 
