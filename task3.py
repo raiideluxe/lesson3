@@ -47,8 +47,6 @@ class Human:
         else:
             print("Not enough money to buy the house!")
 
-
-# Тесты
 Human.default_info()
 
 person = Human("Alice", 25)
