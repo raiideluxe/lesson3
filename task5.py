@@ -12,8 +12,7 @@ class Nikola:
 person1 = Nikola('Иван', 31)
 person2 = Nikola('Николай', 14)
 
-print(person1.name)  # Выведет: Я не Иван, а Николай
-print(person2.name)  # Выведет: Николай
+print(person1.name)
+print(person2.name)
 
-# Попытка добавить новый атрибут 'surname' к объекту person2 приведет к ошибке
 """person2.surname = 'Петров' """
